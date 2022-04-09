@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="css/webapp-styles.css" />
+    <title data-react-helmet="true">What is a web app</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="images/logos/fav-icon_1.png"
+    />
+    <meta
+      data-react-helmet="true"
+      name="og:title"
+      content="What is a web app"
+    />
+    <meta
+      data-react-helmet="true"
+      name="description"
+      content="Anatomy of a web app"
+    />
+    <meta
+      data-react-helmet="true"
+      name="og:description"
+      content="Anatomy of a web app"
+    />
+    <meta
+      data-react-helmet="true"
+      name="twitter:card"
+      content="summary_large_image"
+    />
+    <meta
+      data-react-helmet="true"
+      name="keywords"
+      content="TEJ Fellowship, JS Fullstack curriculum, JS Fullstack bootcamp"
+    />
+  </head>
+  <body>
+    <div id="___gatsby">
+      <div style="outline: none" tabindex="-1" id="gatsby-focus-wrapper">
+        <div>
+          <div class="navbar navbar-light gradient">
+            <a class="navbar-brand" href="/fullstack-curriculum/"
+              ><h1>TEJ Fellowship</h1></a
+            >
+            <h2>Welcome – What is a web app</h2>
+          </div>
+          <div class="main">
+            <div class="lesson-container">
+              <div class="lesson">
+                <h1>What is a web app</h1>
+                <h2></h2>
+                <div class="lesson-content">
+                  <p>
+                    What defines a web app? If you look at the html source for
+                    any web app (or web page), these are the three basic
+                    components you will see:
+                  </p>
+                  <ol>
+                    <li>The HTML page</li>
+                    <li>CSS code for styling</li>
+                    <li>JavaScript code for adding interactivity</li>
+                  </ol>
+                  <p>
+                    that's it! that's all there is to any web application - from
+                    the most basic static website (ok, the most basic can do
+                    without CSS and/or JavaScript), to the most complex web
+                    application such as the web versions of Facebook, Instagram,
+                    Whatsapp etc.
+                  </p>
+                  <h4
+                    id="lets-look-at-how-the-three-components-come-together"
+                    style="position: relative"
+                  >
+                    <a
+                      href="#lets-look-at-how-the-three-components-come-together"
+                      aria-label="lets look at how the three components come together permalink"
+                      class="anchor before"
+                      ><svg
+                        aria-hidden="true"
+                        focusable="false"
+                        height="16"
+                        version="1.1"
+                        viewBox="0 0 16 16"
+                        width="16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"
+                        ></path></svg></a
+                    >Lets look at how the three components come together
+                  </h4>
+                  <ol>
+                    <li>
+                      <strong>First came a plain HTML page</strong> - notice the
+                      <code class="language-text"
+                        >&lt;head&gt; &lt;/head&gt;</code
+                      >
+                      tag block with nothing inside? don't worry about it yet.
+                      As of now, it is not even necessary
+                    </li>
+                  </ol>
+                  <div class="gatsby-highlight" data-language="html">
+                    <pre
+                      class="language-html"
+                    ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
+       howdy there
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
+                  </div>
+                  <p>
+                    Click
+                    <a
+                      href="https://codepen.io/rushilshakya/pen/poybZeM"
+                      target="_blank"
+                      >here</a
+                    >
+                    to see the browser output of the code. You can also play
+                    around with the code on the top half of the screen to see
+                    how the browser output will be affected on the bottom half.
+                  </p>
+                  <hr />
+                  <ol start="2">
+                    <li>
+                      <strong>Adding CSS to the plain HTML page</strong> - now
+                      comes the <code class="language-text">style</code> code
+                      between the <code class="language-text">head</code> tags
+                    </li>
+                  </ol>
+                  <div class="gatsby-highlight" data-language="html">
+                    <pre
+                      class="language-html"
+                    ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css">
+         <span class="token selector">body</span> <span class="token punctuation">{</span>
+           <span class="token property">background-color</span><span class="token punctuation">:</span> powderblue<span class="token punctuation">;</span>
+         <span class="token punctuation">}</span>
+       </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
+       howdy there
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
+                  </div>
+                  <p>
+                    Click
+                    <a
+                      href="https://codepen.io/rushilshakya/pen/WNwxKaV"
+                      target="_blank"
+                      >here</a
+                    >
+                    to see the browser output of the code. You can change the
+                    <code class="language-text">background-color</code> value to
+                    any of
+                    <a
+                      href="https://www.w3schools.com/cssref/css_colors.asp"
+                      target="_blank"
+                      >these</a
+                    >
+                    names to see the changes.
+                  </p>
+                  <hr />
+                  <ol start="3">
+                    <li>
+                      <strong>Adding JavaScript to the HTML page</strong> - the
+                      <code class="language-text">JavaScript</code> portion of
+                      the code is between the
+                      <code class="language-text">script</code> tags
+                    </li>
+                  </ol>
+                  <div class="gatsby-highlight" data-language="html">
+                    <pre
+                      class="language-html"
+                    ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css">
+         <span class="token selector">body</span> <span class="token punctuation">{</span>
+           <span class="token property">background-color</span><span class="token punctuation">:</span> skyblue<span class="token punctuation">;</span>
+         <span class="token punctuation">}</span>
+       </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
+       howdy there
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+       <span class="token keyword">var</span> htmlBody <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementsByTagName</span><span class="token punctuation">(</span><span class="token string">"BODY"</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+       htmlBody<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">"mouseover"</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+         htmlBody<span class="token punctuation">.</span>style<span class="token punctuation">.</span>backgroundColor <span class="token operator">=</span> <span class="token string">"gray"</span><span class="token punctuation">;</span>
+       <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+       htmlBody<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">"mouseout"</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+         htmlBody<span class="token punctuation">.</span>style<span class="token punctuation">.</span>backgroundColor <span class="token operator">=</span> <span class="token string">"skyblue"</span><span class="token punctuation">;</span>
+       <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+     </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
+                  </div>
+                  <p>
+                    Click
+                    <a
+                      href="https://codepen.io/rushilshakya/pen/zYqBmVY"
+                      target="_blank"
+                      >here</a
+                    >
+                    to see the browser output of the code. If you mouseover the
+                    text, the background color will change, which is triggered
+                    by the JavaScript code.
+                  </p>
+                  <hr />
+                  <h4
+                    id="how-is-the-css-and-javascript-code-compartmentalized"
+                    style="position: relative"
+                  >
+                    <a
+                      href="#how-is-the-css-and-javascript-code-compartmentalized"
+                      aria-label="how is the css and javascript code compartmentalized permalink"
+                      class="anchor before"
+                      ><svg
+                        aria-hidden="true"
+                        focusable="false"
+                        height="16"
+                        version="1.1"
+                        viewBox="0 0 16 16"
+                        width="16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"
+                        ></path></svg></a
+                    >How is the CSS and JavaScript code compartmentalized
+                  </h4>
+                  <p>
+                    In most modern web applications, the CSS and the JavaScript
+                    code is not embedded into the code as how we have shown
+                    above. To better organize all our codes and for reusing the
+                    same code, we separate the CSS and the JavaScript into their
+                    own files, then refer to them from the HTML file.
+                  </p>
+                  <p>
+                    Say the CSS is saved in its own file called 'myStyles.css'
+                    (or <em>whatever</em>.css)
+                  </p>
+                  <div class="gatsby-highlight" data-language="css">
+                    <pre
+                      class="language-css"
+                    ><code class="language-css"><span class="token selector">body</span> <span class="token punctuation">{</span>
+     <span class="token property">background-color</span><span class="token punctuation">:</span> skyblue<span class="token punctuation">;</span>
+   <span class="token punctuation">}</span></code></pre>
+                  </div>
+                  <p>
+                    and the JavaScript is in its own file called 'myScripts.js'
+                    (or <em>whatever</em>.js)
+                  </p>
+                  <div class="gatsby-highlight" data-language="js">
+                    <pre
+                      class="language-js"
+                    ><code class="language-js"><span class="token keyword">var</span> htmlBody <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementsByTagName</span><span class="token punctuation">(</span><span class="token string">"BODY"</span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+   htmlBody<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">"mouseover"</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+     htmlBody<span class="token punctuation">.</span>style<span class="token punctuation">.</span>backgroundColor <span class="token operator">=</span> <span class="token string">"gray"</span><span class="token punctuation">;</span>
+   <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+   htmlBody<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">"mouseout"</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+     htmlBody<span class="token punctuation">.</span>style<span class="token punctuation">.</span>backgroundColor <span class="token operator">=</span> <span class="token string">"skyblue"</span><span class="token punctuation">;</span>
+   <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+                  </div>
+                  <p>
+                    then our HTML file can be shortened to the following,
+                    provided that the CSS and JavaScript files are in the same
+                    folder (else, the path will be relative to where the files
+                    are)
+                  </p>
+                  <div class="gatsby-highlight" data-language="html">
+                    <pre
+                      class="language-html"
+                    ><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/css<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>myStyles.css<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
+       howdy there
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>myScripts.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="gatsby-announcer"
+        style="
+          position: absolute;
+          top: 0;
+          width: 1px;
+          height: 1px;
+          padding: 0;
+          overflow: hidden;
+          clip: rect(0, 0, 0, 0);
+          white-space: nowrap;
+          border: 0;
+        "
+        aria-live="assertive"
+        aria-atomic="true"
+      ></div>
+    </div>
+  </body>
+</html>
